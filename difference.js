@@ -10,9 +10,9 @@ function diff_minutes(d1, d2) {
     d02= new Date("May 18, 2020 19:45:00");   d2= d02.getTime();//d2 = new Date(2020,05,19);
     d22= d02.getHours();   d22m= d02.getMinutes();
 
-//console.log( "from ("+d11+":"+d11m+") "+"to ("+d22+":"+d22m+") "+"Total ("+diff_minutes(d1, d2)+")");
+//console.log( "from ("+d11+":"+d11m+") "+"to ("+d22+":"+d22m+") "+"total ("+diff_minutes(d1, d2)+")");
 // afternoon
-console.log( "from ("+(d11-12)+":"+d11m+") "+"to ("+(d22-12)+":"+d22m+") "+"Total ("+diff_minutes(d1, d2)+")");
+console.log( "from ("+(d11-12)+":"+d11m+") "+"to ("+(d22-12)+":"+d22m+") "+"total ("+diff_minutes(d1, d2)+")");
 /*  1300: 1 p.m.
     1400: 2 p.m.
     1500: 3 p.m.
