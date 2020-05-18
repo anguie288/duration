@@ -1,8 +1,7 @@
 function diff_minutes(d1, d2) {
     var diff = d2 - d1;
     var diffInHours = diff/1000/60/60;
-    return Math.abs(diffInHours);
-  }
+    return Math.abs(diffInHours); }
 
     d01= new Date("May 18, 2020 17:30:00");   d1 = d01.getTime();//d1 = new Date(2020,05,18);
     d11 = d01.getHours();  d11m= d01.getMinutes();
@@ -14,18 +13,15 @@ function diff_minutes(d1, d2) {
 //console.log( "From ("+d11+":"+d11m+") "+"to ("+d22+":"+d22m+") "+"Total ("+diff_minutes(d1, d2)+")");
 // afternoon
 console.log( "From ("+(d11-12)+":"+d11m+") "+"to ("+(d22-12)+":"+d22m+") "+"Total ("+diff_minutes(d1, d2)+")");
-/*
-1200: Noon
-1300: 1 p.m.
-1400: 2 p.m.
-1500: 3 p.m.
-1600: 4 p.m.
-1700: 5 p.m.
-1800: 6 p.m.
-1900: 7 p.m.
-2000: 8 p.m.
-2100: 9 p.m.
-2200: 10 p.m.
-2300: 11 p.m.
-2400: 12 p.m.
-*/
+/*  1300: 1 p.m.
+    1400: 2 p.m.
+    1500: 3 p.m.
+    1600: 4 p.m.
+    1700: 5 p.m.
+    1800: 6 p.m.
+    1900: 7 p.m.
+    2000: 8 p.m.
+    2100: 9 p.m.
+    2200: 10 p.m.
+    2300: 11 p.m.
+    2400: 12 p.m.   */
